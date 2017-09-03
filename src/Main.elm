@@ -223,7 +223,7 @@ view model =
         mainContent model =
             Grid.container []
                 [ Html.blockquote []
-                    [ text "In statistics, an empirical distribution function is the distribution function associated with the empirical measure of a sample. This cumulative distribution function is a step function that jumps up by 1/n at each of the n data points. Its value at any specified value of the measured variable is the fraction of observations of the measured variable that are less than or equal to the specified value."
+                    [ text "In statistics, an empirical distribution function is the distribution function associated with the empirical measure of a sample. Its value at any specified value of the measured variable is the fraction of observations of the measured variable that are less than or equal to the specified value."
                     , Html.a [ Attributes.href "https://en.wikipedia.org/wiki/Empirical_distribution_function" ] [ text "Wikipedia" ]
                     ]
                 , Grid.row
